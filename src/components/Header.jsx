@@ -9,8 +9,10 @@ export function Header() {
 				<a href="/" class={url == '/' && 'active'}>
 					Home
 				</a>
-				<a href="/404" class={url == '/404' && 'active'}>
-					404
+				<a href="/file-upload" class={url == '/file-upload' && 'active'}>
+					{/* condition to change url end and change status to active url */}
+					File upload
+					{/* name of the nav bar link */}
 				</a>
 			</nav>
 		</header>

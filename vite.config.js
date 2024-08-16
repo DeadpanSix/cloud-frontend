@@ -8,9 +8,9 @@ export default defineConfig({
 			prerender: {
 				enabled: true,
 				renderTarget: '#app',
-				additionalPrerenderRoutes: ['/404'],
+				additionalPrerenderRoutes: ['/file-upload'], // prerender? search for it later - ADD any new pages for the site
 				previewMiddlewareEnabled: true,
-				previewMiddlewareFallback: '/404',
+				previewMiddlewareFallback: '/file-upload', // fallback? search for it later - ADD any new pages for the site
 			},
 		}),
 	],
