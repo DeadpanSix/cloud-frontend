@@ -1,8 +1,8 @@
-import SendButton from "../../pages/FileUpload/SendButton"
+import SendButton from "./send-button"
 import EmailTo from "./email-to"
 import SendMessage from "./send-message"
 import SendTitle from "./send-title"
-import SendFile from "./SendFile"
+import SendFile from "./send-file"
 import YourEmail from "./your-email"
 // have to import all smaller components
 export function FileUploadFields() {
