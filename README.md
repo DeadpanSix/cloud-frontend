@@ -14,7 +14,7 @@
 
 -   `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
 
-## To add a new page you must follow the next filesx
+## To add a new page you must follow the next files
 
 - Create a new FOLDER under the folder `src/pages` and a `single-component.jsx` inside his own folder to be loaded on the next files as a whole page.
 
