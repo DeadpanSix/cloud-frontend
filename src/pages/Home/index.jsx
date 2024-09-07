@@ -1,4 +1,5 @@
 import preactLogo from '../../assets/preact.svg';
+import FileUploadFields from '../../components/file-upload/file-upload-fields';
 import './style.css';
 
 export function Home() {
@@ -8,6 +9,7 @@ export function Home() {
 				<img src={preactLogo} alt="Preact logo" height="160" width="160" />
 			</a>
 			<h1>Get Started building Vite-powered Preact Apps </h1>
+			<FileUploadFields />
 			<section>
 				<Resource
 					title="Learn Preact"
